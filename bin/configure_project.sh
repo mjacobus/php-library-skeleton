@@ -25,6 +25,7 @@ function replace_in_file() {
 replace_in_file composer.json 'Marcelo Jacobus' '{author_name}'
 replace_in_file composer.json 'marcelo.jacobus@gmail.com' '{author_email}'
 replace_in_file composer.json "Skeleton for libraries" '{package_description}'
+replace_in_file composer.json "mjacobus/library-skeleton" '{package_name}'
 
 for file in `echo $CUSTOM_FILES`; do
   replace_in_file $file '{year}' $year
