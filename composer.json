@@ -22,9 +22,7 @@
     },
     "scripts": {
         "post-create-project-cmd": [
-            "bin/post_create_project.sh",
-            "bin/configure_project.sh"
-
+            "bin/post_create_project.sh"
         ]
     }
 }

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 year=`date +%Y`
 CUSTOM_FILES="MIT-LICENSE README.md composer.json"
