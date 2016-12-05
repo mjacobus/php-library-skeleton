@@ -38,7 +38,7 @@ composer require {package_name}
 
 [Here](https://github.com/{github_repo}/issues) is the issue tracker.
 
-## Lincense
+## License
 
 [MIT](MIT-LICENSE)
 
